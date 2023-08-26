@@ -7,8 +7,4 @@ while 1:
     sp="!@#$%^&*():?|~"
     for index in range(length):
         a=random.choice(char+num+sp)
-        print(a,end="")
-        
-  
-print('hello')
-    
+        print(a,end="")    
