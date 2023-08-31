@@ -10,9 +10,9 @@ print("running")
 # Note : after running the program immediately open whatsapp web then open the persons chat you want to send messages
 
 # For loop
-for i in range(50):
+for i in range(100):
     # writing the messages
-    pg.write("write your message")
-    time.sleep(0.2)
+    pg.write("aurr bhai kya kar raha hain")
+    time.sleep(0.1)
     # Seding the messages by pressing enter
     pg.press("Enter")

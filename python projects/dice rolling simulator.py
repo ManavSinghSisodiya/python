@@ -1,4 +1,4 @@
 # dice rolling simulator
 import random
-num=random.randint(1,7)
+num=random.randint(1,6)
 print(num)
