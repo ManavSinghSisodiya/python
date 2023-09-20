@@ -1,4 +1,5 @@
 import turtle
+import matplotlib.pyplot as plt
 
 wn=turtle.Screen()
 wn.setup(768,768)
@@ -7,7 +8,7 @@ wn.bgcolor("white")
 b=turtle.Turtle()
 b.color('yellow')
 b.up()
-b.speed(0)
+b.speed(-5)
 
 b.seth(0)
 b.fd(22)
@@ -866,3 +867,7 @@ d.circle(-400,46)
 d.circle(204,101)
 d.end_fill()
 d.ht()
+
+def mainloop() -> None: ...
+
+mainloop()

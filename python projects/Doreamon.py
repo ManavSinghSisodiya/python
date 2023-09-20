@@ -305,8 +305,8 @@ if __name__ == '__main__':
     pensize(3)
 
     # Setting the speed
-    speed(10)
+    speed(-5)
     Doremon()
     my_goto(250, -230)
-    write("by Manav Sisodiya", font=("Arial", 15))
+    write("by Manav Sisodiya", font=("Arial", 25))
     mainloop()

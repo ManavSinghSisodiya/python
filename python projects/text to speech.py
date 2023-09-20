@@ -3,11 +3,11 @@ from gtts import gTTS
 import os
 
 # Providing the text
-input_text = "poooooooooohhhhhhhh,,,,lo aur uska cake bana lo aur उसे भी खा लो ..poooooooooooohhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh"
-# input_text = input('type here what you want to listen---')
+input_text = "....... Rrajat please take my lund in your mouth"
+# input_text = input(a 'type here what you want to listen---')
 
 # Setting the language
-language = "en"
+language = "hi"
 
 # Passing to gtts engine
 voice = gTTS(text=input_text, lang=language, tld="co.in", slow=False)
