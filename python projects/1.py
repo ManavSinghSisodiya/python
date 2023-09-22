@@ -80,7 +80,7 @@ def wishMe():
     else:
         speak("Good Evening Sir!")  
 
-    assname=("Jarvis 1 point o")
+    assname=("manav 1 point o")
     speak("I am your Assistant")
     speak(assname)
 
@@ -216,7 +216,9 @@ def sendEmail(to, content):
     server.sendmail('youremail@email.com', to, content)
     server.close()
 
-
+ 
+ 
+                    # _______commands_________
 
 if __name__ == '__main__':
     clear = lambda: os.system('cls')
